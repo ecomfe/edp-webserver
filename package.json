@@ -1,13 +1,14 @@
 {
     "name": "edp-webserver",
     "description": "Package for edp webserver.",
-    "version": "0.4.8",
+    "version": "0.4.9",
     "contributors": [
         { "name": "errorrik", "email": "errorrik@gmail.com" },
         { "name": "otakustay", "email" : "otakustay@live.com" },
         { "name": "firede", "email" : "firede@firede.us" },
         { "name": "leeight", "email" : "leeight@gmail.com" },
-        { "name": "ostream", "email" : "ostream.song@gmail.com" }
+        { "name": "ostream", "email" : "ostream.song@gmail.com" },
+        { "name": "chris", "email": "wfsr@foxmail.com"}
     ],
 
     "dependencies": {
