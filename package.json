@@ -1,50 +1,23 @@
 {
-  "name": "edp-webserver",
-  "description": "Package for edp webserver.",
-  "version": "0.4.8",
-  "contributors": [
-    {
-      "name": "errorrik",
-      "email": "errorrik@gmail.com"
+    "name": "edp-webserver",
+    "description": "Package for edp webserver.",
+    "version": "0.4.8",
+    "contributors": [
+        { "name": "errorrik", "email": "errorrik@gmail.com" },
+        { "name": "otakustay", "email" : "otakustay@live.com" },
+        { "name": "firede", "email" : "firede@firede.us" },
+        { "name": "leeight", "email" : "leeight@gmail.com" },
+        { "name": "ostream", "email" : "ostream.song@gmail.com" }
+    ],
+
+    "dependencies": {
+        "less": "~1.4.2",
+        "coffee-script": "~1.6.2",
+        "async": "~0.2.8",
+        "colors": "~0.6.0-1",
+        "handlebars": "~1.0",
+        "html2js": "~0.0.2"
     },
-    {
-      "name": "otakustay",
-      "email": "otakustay@live.com"
-    },
-    {
-      "name": "firede",
-      "email": "firede@firede.us"
-    },
-    {
-      "name": "leeight",
-      "email": "leeight@gmail.com"
-    },
-    {
-      "name": "ostream",
-      "email": "ostream.song@gmail.com"
-    }
-  ],
-  "dependencies": {
-    "less": "~1.4.2",
-    "async": "~0.2.8",
-    "colors": "~0.6.0-1",
-    "handlebars": "~1.0",
-    "html2js": "~0.0.2"
-  },
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/ecomfe/edp-webserver"
-  },
-  "readme": "# edp-webserver\n\nPackage for edp webserver.\n\n\n\n\n",
-  "readmeFilename": "README.md",
-  "bugs": {
-    "url": "https://github.com/ecomfe/edp-webserver/issues"
-  },
-  "_id": "edp-webserver@0.4.8",
-  "dist": {
-    "shasum": "a697b103731cb66a68d30fbf4a91423b780a5435"
-  },
-  "_from": "edp-webserver@>=0.4.8",
-  "_resolved": "https://registry.npmjs.org/edp-webserver/-/edp-webserver-0.4.8.tgz"
+    "main": "index.js",
+    "repository": "git://github.com/ecomfe/edp-webserver"
 }
