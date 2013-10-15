@@ -17,7 +17,7 @@
         "async": "~0.2.8",
         "colors": "~0.6.0-1",
         "handlebars": "~1.0",
-        "multiparty": "~2.1"
+        "connect": "~2.9"
     },
     "main": "index.js",
     "repository": "git://github.com/ecomfe/edp-webserver"
