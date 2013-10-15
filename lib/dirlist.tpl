@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
     <title>Directory List</title>
     <link rel="SHORTCUT ICON" href="http://www.baidu.com/favicon.ico">
     <style type="text/css">
@@ -84,6 +85,13 @@
     .table-hover tbody tr.error:hover>td{background-color:#ebcccc;}
     .table-hover tbody tr.warning:hover>td{background-color:#faf2cc;}
     .table-hover tbody tr.info:hover>td{background-color:#c4e3f3;}
+    /* for mobile devices */
+    @media screen and (max-width:320px) {
+        body { font-size: 100%; }
+        h1 { font-size: 120%; margin-left: 6px; }
+        .table th:last-child,
+        .table td:last-child { display: none; }
+    }
     </style>
   </head>
   <body>
