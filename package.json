@@ -16,7 +16,8 @@
         "coffee-script": "~1.6.2",
         "async": "~0.2.8",
         "colors": "~0.6.0-1",
-        "handlebars": "~1.0"
+        "handlebars": "~1.0",
+        "html2js": "~0.0.2"
     },
     "main": "index.js",
     "repository": "git://github.com/ecomfe/edp-webserver"
