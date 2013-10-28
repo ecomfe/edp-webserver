@@ -8,7 +8,8 @@
         { "name": "firede", "email" : "firede@firede.us" },
         { "name": "leeight", "email" : "leeight@gmail.com" },
         { "name": "ostream", "email" : "ostream.song@gmail.com" },
-        { "name": "chris", "email": "wfsr@foxmail.com"}
+        { "name": "chris", "email": "wfsr@foxmail.com"},
+        { "name": "junmer", "email": "junmer@foxmail.com"}
     ],
 
     "dependencies": {
@@ -17,7 +18,8 @@
         "async": "~0.2.8",
         "colors": "~0.6.0-1",
         "handlebars": "~1.0",
-        "html2js": "~0.0.2"
+        "html2js": "~0.0.2",
+        "stylus": "~0.38.0"
     },
     "main": "index.js",
     "repository": "git://github.com/ecomfe/edp-webserver"
