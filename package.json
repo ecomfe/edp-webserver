@@ -19,7 +19,8 @@
         "colors": "~0.6.0-1",
         "handlebars": "~1.0",
         "html2js": "~0.0.2",
-        "stylus": "~0.38.0"
+        "stylus": "~0.38.0",
+        "minimatch": "~0.2.12"
     },
     "main": "index.js",
     "repository": "git://github.com/ecomfe/edp-webserver"
