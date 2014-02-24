@@ -11,7 +11,9 @@
         { "name": "chris", "email": "wfsr@foxmail.com"},
         { "name": "junmer", "email": "junmer@foxmail.com"}
     ],
-
+    "scripts": {
+        "prepare": "npm ln edp-core"
+    },
     "dependencies": {
         "edp-core": "~0.0.1",
         "less": "~1.6.3",
