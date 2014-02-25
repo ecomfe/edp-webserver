@@ -12,6 +12,7 @@
         { "name": "junmer", "email": "junmer@foxmail.com"}
     ],
     "scripts": {
+        "test": "make -C test",
         "prepare": "npm ln edp-core"
     },
     "dependencies": {
