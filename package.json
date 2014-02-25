@@ -1,7 +1,7 @@
 {
     "name": "edp-webserver",
     "description": "Package for edp webserver.",
-    "version": "0.4.15",
+    "version": "0.4.16",
     "contributors": [
         { "name": "errorrik", "email": "errorrik@gmail.com" },
         { "name": "otakustay", "email" : "otakustay@live.com" },
