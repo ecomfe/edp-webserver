@@ -3,6 +3,10 @@ exports.directoryIndexes = true;
 exports.documentRoot = __dirname;
 exports.getLocations = function () {
     return [
+        {
+            location: /\.php$/,
+            handler: php()
+        },
         { 
             location: /\/$/, 
             handler: home( 'index.html' )
