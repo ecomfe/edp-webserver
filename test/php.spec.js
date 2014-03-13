@@ -19,8 +19,12 @@ var path = require( 'path' );
 var base = require( './base' );
 var handler = require( '../lib/handlers/php' );
 
+var zit = function() {
+    return (process.env.USER === 'leeight' ? it : xit);
+}
+
 describe('php', function(){
-    xit('default', function(){
+    zit()('default', function(){
         var context = base.getContext();
         context.request.pathname = '/hello.php';
         context.request.url = '/hello.php?a=b';
