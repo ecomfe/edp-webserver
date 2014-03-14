@@ -19,12 +19,8 @@ var path = require( 'path' );
 var base = require( './base' );
 var LessHandler = require( '../lib/handlers/less' );
 
-var zit = function() {
-    return (process.env.USER === 'leeight' ? it : xit);
-}
-
 describe('less', function(){
-    zit()('default', function(){
+    it('default', function(){
         var context = base.getContext();
         context.request.pathname = '/edp-issue-166.less';
         context.content = require( 'fs' ).readFileSync( 
