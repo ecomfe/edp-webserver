@@ -8,8 +8,9 @@
         { "name": "firede", "email" : "firede@firede.us" },
         { "name": "leeight", "email" : "leeight@gmail.com" },
         { "name": "ostream", "email" : "ostream.song@gmail.com" },
-        { "name": "chris", "email": "wfsr@foxmail.com"},
-        { "name": "junmer", "email": "junmer@foxmail.com"}
+        { "name": "chris", "email": "wfsr@foxmail.com" },
+        { "name": "junmer", "email": "junmer@foxmail.com" },
+        { "name": "sekiyika", "email": "px.pengxing@gmail.com" }
     ],
     "scripts": {
         "test": "make -C test",
@@ -24,7 +25,8 @@
         "handlebars": "~1.3.0",
         "html2js": "~0.0.2",
         "stylus": "~0.42.2",
-        "path-to-regexp": "~0.0.2"
+        "path-to-regexp": "~0.0.2",
+        "connect": "~2.14.0"
     },
     "main": "index.js",
     "repository": "git://github.com/ecomfe/edp-webserver"
