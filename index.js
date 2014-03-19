@@ -11,8 +11,3 @@ exports.start = require( './lib/start' );
 exports.getDefaultConfig = function () {
     return require( './lib/config' );
 };
-
-/**
- * @ignore
- */
-exports.cli = require( './cli' );

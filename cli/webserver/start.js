@@ -48,7 +48,7 @@ function loadConf( confFile ) {
         parentDir = path.resolve( dir, '..' );
     } while ( parentDir != dir );
 
-    return require( './index' ).getDefaultConfig();
+    return require( '../../index' ).getDefaultConfig();
 }
 
 /**
@@ -58,13 +58,6 @@ function loadConf( confFile ) {
  * @type {Object}
  */
 var cli = {};
-
-/**
- * 命令名称
- *
- * @type {string}
- */
-cli.command = 'start';
 
 /**
  * 命令描述信息
@@ -119,7 +112,7 @@ cli.main = function ( args, opts ) {
         }
     }
 
-    require( './lib/start' )( conf );
+    require( '../../lib/start' )( conf );
 };
 
 /**
@@ -127,4 +120,4 @@ cli.main = function ( args, opts ) {
  *
  * @type {Object}
  */
-module.exports = exports = cli;
+exports.cli = cli;
