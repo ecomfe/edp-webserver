@@ -61,6 +61,12 @@ WebServer的配置是一个NodeJS风格的Javascript模块。WebServer运行时�
                 location: '/', 
                 handler: home( 'index.html' )
             },
+            {
+                location: '/v3/api/detail/:id',
+                handler: function(context) {
+                    console.log(context.parameters);
+                }
+            },
             { 
                 location: /^\/redirect-local/, 
                 handler: redirect('redirect-target', false) 
