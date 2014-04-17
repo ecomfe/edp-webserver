@@ -1,7 +1,7 @@
 {
     "name": "edp-webserver",
     "description": "Package for edp webserver.",
-    "version": "1.0.1",
+    "version": "1.0.7",
     "contributors": [
         { "name": "errorrik", "email": "errorrik@gmail.com" },
         { "name": "otakustay", "email" : "otakustay@live.com" },
@@ -13,11 +13,10 @@
         { "name": "sekiyika", "email": "px.pengxing@gmail.com" }
     ],
     "scripts": {
-        "test": "make -C test",
-        "prepare": "npm ln edp-core"
+        "test": "make -C test"
     },
     "dependencies": {
-        "edp-core": "~1.0.0",
+        "edp-core": "~1.0.12",
         "less": "~1.6.3",
         "coffee-script": "~1.7.1",
         "async": "~0.2.8",

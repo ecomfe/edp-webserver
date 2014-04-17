@@ -28,7 +28,7 @@ describe('file', function(){
             runs(function(){
                 expect( context.start ).toHaveBeenCalled();
                 expect( context.start.callCount ).toBe( 1 );
-                expect( context.content.length ).toBe( 2030 );
+                expect( context.content.length ).toBe( 2101 );
             });
         } );
 

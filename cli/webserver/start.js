@@ -112,7 +112,16 @@ cli.main = function ( args, opts ) {
         }
     }
 
-    require( '../../lib/start' )( conf );
+    var start = require( '../../lib/start' );
+
+    if ( typeof conf.init === 'function' ) {
+        conf.init( conf, function( config ){
+            start( config || conf );
+        });
+    }
+    else {
+        start( conf );
+    }
 };
 
 /**
