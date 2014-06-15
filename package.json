@@ -1,3 +1,4 @@
+
 {
     "name": "edp-webserver",
     "description": "Package for edp webserver.",
@@ -25,7 +26,8 @@
         "html2js": "~0.0.2",
         "stylus": "~0.42.2",
         "path-to-regexp": "~0.0.2",
-        "connect": "~2.14.0"
+        "connect": "~2.14.0",
+        "nib": "^1.0.2"
     },
     "main": "index.js",
     "repository": "git://github.com/ecomfe/edp-webserver"
