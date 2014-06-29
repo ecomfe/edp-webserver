@@ -94,7 +94,7 @@ WebServer的配置是一个NodeJS风格的Javascript模块。WebServer运行时�
                 location: /^.*$/, 
                 handler: [
                     file(),
-                    proxyNoneExists()
+                    proxyNoneExists('www.baidu.com', 80)
                 ]
             }
         ];
