@@ -1,7 +1,7 @@
 {
   "name": "edp-webserver",
   "description": "Package for edp webserver.",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "contributors": [
     {
       "name": "errorrik",
