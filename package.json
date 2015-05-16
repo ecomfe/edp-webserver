@@ -1,7 +1,7 @@
 {
   "name": "edp-webserver",
   "description": "Package for edp webserver.",
-  "version": "1.1.3",
+  "version": "1.2.0-beta.1",
   "contributors": [
     {
       "name": "errorrik",
@@ -40,18 +40,19 @@
     "test": "make -C test"
   },
   "dependencies": {
+    "babel": "~5.4.3",
+    "chalk": "~1.0.0",
+    "coffee-script": "~1.9.2",
+    "connect": "~3.3.5",
     "edp-core": "~1.0.12",
+    "handlebars": "~3.0.3",
+    "html2js": "~0.2.0",
+    "http2": "^3.2.0",
     "less": "~1.7.0",
-    "coffee-script": "~1.8.0",
-    "async": "~0.9.0",
-    "chalk": "~0.5.0",
-    "handlebars": "~2.0.0",
-    "html2js": "~0.0.2",
-    "stylus": "~0.49.2",
     "markdown": "~0.5.0",
-    "path-to-regexp": "~1.0.1",
-    "connect": "~2.27.2",
-    "babel": "~5.2.17"
+    "path-to-regexp": "~1.1.1",
+    "stylus": "~0.51.1",
+    "underscore": "^1.8.3"
   },
   "main": "index.js",
   "repository": "git://github.com/ecomfe/edp-webserver"
