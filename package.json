@@ -1,7 +1,7 @@
 {
   "name": "edp-webserver",
   "description": "Package for edp webserver.",
-  "version": "1.2.0-beta.1",
+  "version": "1.2.0-beta.2",
   "contributors": [
     {
       "name": "errorrik",
@@ -44,6 +44,7 @@
     "chalk": "~1.0.0",
     "coffee-script": "~1.9.2",
     "connect": "~3.3.5",
+    "connect-logger": "0.0.1",
     "edp-core": "~1.0.12",
     "handlebars": "~3.0.3",
     "html2js": "~0.2.0",
