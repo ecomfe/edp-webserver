@@ -53,7 +53,8 @@
     "markdown": "~0.5.0",
     "path-to-regexp": "~1.1.1",
     "stylus": "~0.51.1",
-    "underscore": "^1.8.3"
+    "underscore": "^1.8.3",
+    "babel": "5.x"
   },
   "main": "index.js",
   "repository": "git://github.com/ecomfe/edp-webserver"
