@@ -55,5 +55,8 @@
     "underscore": "^1.8.3"
   },
   "main": "index.js",
-  "repository": "git://github.com/ecomfe/edp-webserver"
+  "repository": "git://github.com/ecomfe/edp-webserver",
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
 }
