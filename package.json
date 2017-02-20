@@ -44,6 +44,7 @@
     "coffee-script": "~1.9.2",
     "connect": "~3.3.5",
     "connect-logger": "0.0.1",
+    "edp-browser-launcher2": "^0.4.5",
     "edp-core": "~1.0.12",
     "handlebars": "~3.0.3",
     "html2js": "~0.2.0",
