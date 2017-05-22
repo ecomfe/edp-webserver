@@ -42,7 +42,7 @@
   "dependencies": {
     "babel-core": "5.x",
     "coffee-script": "~1.9.2",
-    "connect": "~3.3.5",
+    "connect": "~3.6.2",
     "connect-logger": "0.0.1",
     "edp-core": "~1.0.12",
     "handlebars": "~3.0.3",
