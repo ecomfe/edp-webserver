@@ -75,7 +75,8 @@ cli.options = [
     'proxy:',
     'port:',
     'config:',
-    'document-root:'
+    'document-root:',
+    'navigator:'
 ];
 
 /**
@@ -84,6 +85,7 @@ cli.options = [
 cli.main = function (args, opts) {
     var proxy = opts.proxy;
     var port = opts.port;
+    var navigator = opts.navigator;
     var docRoot = opts['document-root'];
     var conf = opts.config;
 
@@ -102,6 +104,10 @@ cli.main = function (args, opts) {
 
     if (port) {
         conf.port = port;
+    }
+
+    if (navigator) {
+        conf.navigator = navigator;
     }
 
     if (proxy) {
